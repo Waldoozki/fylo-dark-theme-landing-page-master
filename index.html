@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__wave"></div>
+    <nav class="nav container">
+      <figure class="nav__logo">
+        <img src="images/logo.svg" alt="logo-Fylo" class="nav__img">
+      </figure>
+      <div class="nav__menu">
+        <a href="#" class="nav__link">Features</a>
+        <a href="#" class="nav__link">Team</a>
+        <a href="#" class="nav__link">Sign In</a>
+      </div>
+    </nav>
+    <section class="hero__main container">
+      <img src="images/illustration-intro.png" alt="illustration-intro" class="hero__img">
+      <h1 class="hero__title">All your files in one secure location, accessible anywhere.</h1>
+      <p class="hero__paragraph">  Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+      <button class="cta cta--1"><span>Get Started :D</span></button>
+    </section>
+  </header>
+  <main class="main">
+    <section class="about container">
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-access-anywhere.svg" alt="icon-access-anywhere" class="about__img">
+        </figure>
+        <h2 class="about__title">Access your files, anywhere</h2>
+        <p class="about__paragraph">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+      </article>
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-security.svg" alt="icon-security" class="about__img">
+        </figure>
+        <h2 class="about__title">Security you can trust</h2>
+        <p class="about__paragraph">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+      </article>
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-collaboration.svg" alt="icon-collaboration" class="about__img">
+        </figure>
+        <h2 class="about__title">Real-time collaboration</h2>
+        <p class="about__paragraph">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+      </article>
+      <article class="about__item">
+        <figure class="about__picture">
+          <img src="images/icon-any-file.svg" alt="icon-any-file" class="about__img">
+        </figure>
+        <h2 class="about__title">Store any type of file</h2>
+        <p class="about__paragraph">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+      </article>
+    </section>
+    <section class="productive container">
+      <figure class="productive__img">
+        <img src="images/illustration-stay-productive.png" alt="illustration-stay-productive" class="productive__img">
+      </figure>
+      <div class="productive__texts">
+        <h3 class="productive__title">Stay productive, wherever you are</h3>
+        <p class="productive__paragraph">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p class="productive__paragraph">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+        <button class="cta cta--2">
+          <figure class="icon__arrow">
+            <img src="images/icon-arrow.svg" alt="icon-arrow" class="arrow">
+          </figure>
+          <span>See how Fylo works</span>
+        </button>
+      </div>
+    </section>
+    <section class="card container">
+      <article class="card__item card__item--first">
+        <p class="card__paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        <div class="card__profile">
+          <figure class="card__picture">
+            <img src="images/profile-1.jpg" alt="profile-1" class="card__img">
+          </figure>
+          <div class="card__info">
+            <h4 class="card__name">Satish Patel</h4>
+            <p class="card__job">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </article>
+      <article class="card__item">
+        <p class="card__paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        <div class="card__profile">
+          <figure class="card__picture">
+            <img src="images/profile-2.jpg" alt="profile-2" class="card__img">
+          </figure>
+          <div class="card__info">
+            <h4 class="card__name">Bruce McKenzie</h4>
+            <p class="card__job">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </article>
+      <article class="card__item">
+        <p class="card__paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        <div class="card__profile">
+          <figure class="card__picture">
+            <img src="images/profile-3.jpg" alt="profile-3" class="card__img">
+          </figure>
+          <div class="card__info">
+            <h4 class="card__name">Iva Boyd</h4>
+            <p class="card__job">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="join">
+      <div class="join__container">
+        <h3 class="join__title">Get early access today</h3>
+        <p class="join__paragraph">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        <form class="join__form">
+          <input type="text" placeholder="email@example.com" class="join__input join__input--text">
+          <button class="cta cta--3"><span>Get Started For Free</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <section class="footer__container container">
+      <div class="footer__content">
+        <figure class="footer__logo">
+          <img src="images/logo.svg" alt="icon-logo" class="footer__img">
+        </figure>
+        <div class="footer__address">
+          <img src="images/icon-location.svg" alt="icon-location" class="footer__icon footer__icon-1">
+          <p class="footer__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+      </div>
+        <div class="footer__contact">
+          <p class="footer__text">
+            <img src="images/icon-phone.svg" alt="icon-phone" class="footer__icon footer__icon-2">
+            +1-543-123-4567
+          </p>
+          <p class="footer__text">
+            <img src="images/icon-email.svg" alt="icon-email" class="footer__icon footer__icon-3">
+            example@fylo.com
+          </p>
+        </div>
+        <div class="footer__enlaces">
+          <nav class="footer__nav footer__nav--web">
+            <a href="#" class="footer__link">About Us</a>
+            <a href="#" class="footer__link">Jobs</a>
+            <a href="#" class="footer__link">Press</a>
+            <a href="#" class="footer__link">Blog</a>
+          </nav>
+          <nav class="footer__nav footer__nav--policy">
+            <a href="#" class="footer__link">Contact Us</a>
+            <a href="#" class="footer__link">Terms</a>
+            <a href="#" class="footer__link">Privacy</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/axel.oswaldo.758/" target="_blank" class="footer__link">
+          <figure class="icon__social icon__social--1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </figure>
+        </a>
+        <a href="https://twitter.com/Waldoozvi" target="_blank" class="footer__link">
+          <figure class="icon__social icon__social--2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+          </figure>
+        </a>
+        <a href="https://youtu.be/aIrRVupcvhg" target="_blank" class="footer__link">
+          <figure class="icon__social icon__social--3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+            </svg>
+          </figure>
+        </a>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
